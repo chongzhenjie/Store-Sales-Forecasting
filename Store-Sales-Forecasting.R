@@ -596,7 +596,3 @@ final <-
 write_csv(my_forecasts, "my_forecasts.csv")
 
 #' 
-## ------------------------------------------------------------------
-knitr::purl("Store-Sales-Forecasting.Rmd", documentation = 2)
-
-#' 
