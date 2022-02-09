@@ -1,5 +1,70 @@
-Store Sales Forecasting
+Store Sales Forecasting - Kaggle
 ================
+Source: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview
+<br>
+<br>
+
+### Time Series Project: Use historical markdown data to predict store sales
+
+* Analyzed dataset (same dataset used by Walmart in its Kaggle Recruiting Competition in 2014) involving weekly sales of 3000+ departments over 100+ weeks to predict future weekly sales<br>
+* Transformed irregular time series, handled seasonality with STL decomposition, and built individual models (ARIMA, ETS, dynamic harmonic regression, etc.)  <br>
+* Achieved weighted MAE of 2494.25819 (top 50 score) on Private Leaderboard, scored on hidden test data<br>
+<br>
+
+### Model Validation Summary
+
+<body>
+<table>
+  <tr>
+    <th>Models</th>
+    <th>Weighted MAE</th>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td>Average of all Models</td>
+    <td align="center">1390.943</td>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td>STL-ARIMA</td>
+    <td align="center">1433.813</td>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td>STL-ETS</td>
+    <td align="center">1451.516</td>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td>Weak Models Average</td>
+    <td align="center">1477.353</td>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td>ARIMA-Fourier</td>
+    <td align="center">1516.077</td>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td>TSLM</td>
+    <td align="center">1576.143</td>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td>SARIMA</td>
+    <td align="center">1624.447</td>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td>SNaive (Baseline)</td>
+    <td align="center">1687.802</td>
+  </tr>  
+</table>
+</body>
+<br>
+All the details are found below.
+
+# Contents
 
   - [Data Preprocessing](#data-preprocessing)
   - [Model Visualization and
