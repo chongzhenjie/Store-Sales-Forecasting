@@ -7,7 +7,7 @@ Source: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/over
 ### Time Series Project: Use historical data to predict store sales
 
 * Analyzed dataset (same dataset used by Walmart in its Kaggle Recruiting Competition in 2014) involving weekly sales of 3000+ departments over 100+ weeks to predict future weekly sales<br>
-* Transformed irregular time series, handled seasonality with STL decomposition, and built individual models (ARIMA, ETS, dynamic harmonic regression, etc.)  <br>
+* Transformed irregular time series, handled seasonality with STL decomposition, and built individual models (ARIMA, ETS, dynamic harmonic regression, etc.) to minimize weighted MAE  <br>
 * Achieved weighted MAE of 2494.25819 (top 50 score) on Private Leaderboard, scored on hidden test data<br>
 <br>
 
