@@ -519,7 +519,7 @@ wmae_summary %>%
   arrange(WMAE)
 
 #' 
-#' The `WMAE` for the average of the weaker models perform significantly better than the top 2 individual models. In fact, taking the average over all individual models results in an even better score.
+#' The `WMAE` for the average of the weaker models perform significantly better. In fact, taking the average over all individual models results in an even better score.
 #' 
 #' ### Final Model
 #' 
