@@ -171,7 +171,7 @@ numObs_vs_weeklySales.aes(numObs_vs_weeklySales) +
 #' 
 #' It seems that both distributions are right-skewed. `storeDept` with missing number of observations clearly have a smaller spread of `Weekly_Sales` around the peak.
 #' 
-#' We plot the time series for sum of `Weekly_Sales` across `storeDept` and indicate the holiday weeks and the previous week of the holidays to get a general idea.
+#' We plot the time series for median of `Weekly_Sales` across `storeDept` and indicate the holiday weeks and the previous week of the holidays to get a general idea.
 #' 
 ## ------------------------------------------------------------------
 (holidayWeeks <-
