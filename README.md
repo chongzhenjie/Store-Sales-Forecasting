@@ -850,8 +850,7 @@ wmae_summary %>%
     ## 8 SNaive (Baseline)     1688.
 
 The `WMAE` for the average of the weaker models perform significantly
-better than the top 2 individual models. In fact, taking the average
-over all individual models results in an even better score.
+better. In fact, taking the average over all individual models results in an even better score.
 
 ### Final Model
 
