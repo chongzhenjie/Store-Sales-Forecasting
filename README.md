@@ -1,6 +1,8 @@
 Store Sales Forecasting - Kaggle
 ================
 Source: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview
+
+RMD file shared on Kaggle at: https://www.kaggle.com/chongzhenjie/store-sales-forecasting-in-r
 <br>
 <br>
 
